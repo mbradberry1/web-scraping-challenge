@@ -23,7 +23,7 @@ def scrape_all():
     return data
 
 def mars_news(browser):
-    url = 'https://data-class-mars.s3.amazonaws.com/Mars/index.html'
+    url = 'https://redplanetscience.com'
     browser.visit(url)
 
     browser.is_element_present_by_css('div.list_text', wait_time=1)
